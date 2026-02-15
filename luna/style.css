@@ -1,0 +1,31 @@
+#pixel-cat {
+  position: fixed;
+  width: 3cm; 
+  height: 3cm;
+  z-index: 2147483647; 
+  pointer-events: auto;
+  user-select: none;
+  cursor: grab;
+  image-rendering: pixelated; 
+  image-rendering: -moz-crisp-edges;
+  image-rendering: crisp-edges;
+}
+
+#pixel-cat:active {
+  cursor: grabbing;
+}
+
+#cat-text {
+  position: fixed;
+  font-size: 12px;
+  font-family: Arial, sans-serif;
+  background: white;
+  padding: 4px 8px;
+  border-radius: 6px;
+  border: 1px solid #333;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+  z-index: 2147483647;
+  pointer-events: none;
+  white-space: nowrap;
+  color: #333;
+}

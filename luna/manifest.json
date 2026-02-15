@@ -1,0 +1,38 @@
+{
+  "manifest_version": 3,
+  "name": "Luna",
+  "version": "1.1",
+  "description": "A Cute Cat chilling in your web page keeping you company",
+  "permissions": ["storage"],
+  "host_permissions": ["<all_urls>"],
+  "icons": {
+     "128": "assets/luna.png"
+   },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "css": ["style.css"],
+      "run_at": "document_idle"
+      
+    }
+    
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "assets/cat1.png",
+        "assets/cat2.png",
+        "assets/cat3.png",
+        "assets/cat4.png",
+        "assets/cat5.png",
+        "assets/cat6.png",
+        "assets/cat7.png",
+        "assets/cat8.png",
+        "assets/cat9.png",
+        "assets/cat10.png"
+      ],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}
