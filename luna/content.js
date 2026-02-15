@@ -165,6 +165,8 @@ function init() {
     "gimme attention",
     "lets cuddle",
     "feed me /:",
+    "Im Luna :D",
+    "I love you"
   ];
 
   function speak() {
@@ -188,3 +190,6 @@ function init() {
     }
   });
 }
+
+
+jghghhhf
